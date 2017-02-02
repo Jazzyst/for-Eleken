@@ -1,0 +1,423 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "Lato-Bold", sans-serif
+	font-weight: normal
+	font-size: 11px
+	min-width: 320px
+	color: #b9b9b9
+	letter-spacing: 1px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+a 
+	color: #b9b9b9
+	text-decoration: none
+	letter-spacing: 1px
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+
+
+.loader 
+	background: none repeat scroll 0 0 #fff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner 
+		background-image: url("../img/loading.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+header
+	width: 100%
+	.heder-wrap-top
+		max-width: 1140px
+		margin: 0 auto
+		padding: 0
+		.top-links
+			float: left
+
+.heder-wrap-top
+	ul 
+		list-style: none
+		padding: 0
+		margin: 15px 0 0 0 
+		li 
+			text-transform: uppercase
+			display: inline-block
+		li:first-child
+			margin-right: 32px
+		li:nth-child(2)
+			margin-right: 27px
+
+				
+
+.heder-wrap-top
+	.select
+		float: right
+		
+.gray-line
+	width: 100%
+	border-bottom: 1px solid #ededed
+	height: 45px	
+	
+				
+
+.select-language
+	display: inline-block
+	a 
+		letter-spacing: 1px
+		padding-left: 16px
+		padding-right: 6px
+		text-transform: uppercase
+		.fa 
+			position: relative
+			left: 8px
+			top: 0px
+			color: #7f7f7f
+			font-size: 12px
+		
+
+.select-currency
+	display: inline-block
+	border-right: 1px solid #ededed
+	a 
+		letter-spacing: 1px
+		padding-right: 19px
+		text-transform: uppercase
+		line-height: 45px
+		.fa 
+			margin-left: 12px
+			color: #7f7f7f
+			font-size: 12px
+
+.gray-line-bottom
+	width: 100%
+	border-bottom: 1px solid #ededed
+	height: 101px
+.header-wrap-bottom
+	max-width: 1140px
+	margin: 0 auto
+	padding: 0
+	
+
+.logo 
+	float: left
+	margin-left: -1px
+
+	a 
+		font-family: "Didot-HTF-B06-Bold", sans-serif
+		font-size: 55px
+		line-height: 100px
+		text-transform: none
+		color: #333333
+		span
+			font-size: 30px
+
+
+.mnu
+	float: left
+	margin-top: 38px
+	margin-left: 164px
+	ul 
+		list-style: none
+		padding: 0
+		margin: 0
+		li
+			display: inline-block
+			margin: 0 25px
+			a 
+				text-transform: uppercase
+				font-size: 12px
+				line-height: 24px
+				letter-spacing: 1.2px
+		li.sale
+			a 
+				color: #fc411d
+
+		li:nth-child(5)
+			margin: 0 25px 0 44px
+				
+		li.active
+			border-bottom: 2px solid #1f87da
+			a 
+				color: #333333
+
+.bag-wrap
+	float: right	
+	margin-right: 20px		
+.bag
+	float: left
+	margin: 40px 12px 0 0px
+	display: inline-block
+	a 
+		text-transform: uppercase
+		font-size: 12px
+			
+.number-of-goods
+	display: inline-block
+	float: left
+	height: 48px
+	width: 48px
+	border-radius: 50%
+	border: 2px solid #1f87da
+	margin-top: 25px
+	margin-left: 3px
+	text-align: center
+	font-size: 12px
+	color: #333333
+	line-height: 45px
+
+.search
+	display: inline-block
+	position: relative
+	float: left
+	top: 42px
+	left: 21px
+	a 
+		.fa 
+			color: #7f7f7f
+			font-size: 15px
+
+	
+// header-end
+
+// section-catalog
+
+
+.catalog
+	max-width: 1140px
+	margin: 0 auto
+	padding: 0
+	h1 
+		text-align: center
+		font-size: 58px
+		font-family: "PlayfairDisplay-Regular", sans-serif
+		margin-top: 81px
+		font-weight: normal
+		font-style: normal
+		letter-spacing: -0.1px
+		color: #333333
+		margin-left: 4px
+
+.catalog
+	ul 
+		list-style: none
+		padding: 0
+		margin: 0
+		li 
+			display: inline-block
+			margin: 0 25px
+			a 
+				text-transform: uppercase
+				font-size: 12px
+				line-height: 25px
+				letter-spacing: 1.3px
+		li:nth-child(5)
+			margin: 0 24px
+		li.active
+			border-bottom: 2px solid #1f87da
+			a 
+				color: #333333
+
+.catalog
+	.controls
+		margin-left: 233px
+		margin-top: 44px
+
+#portfolio_grid
+	margin-top: 40px
+	.good_descr
+		.good-name
+			margin-top: 24px
+			// margin-left: 69px
+			font-size: 16px
+			line-height: 20px
+			color: #333333
+			font-family: "PlayfairDisplay-Regular", sans-serif
+			letter-spacing: 0px
+			text-align: center
+		.current-price
+			text-transform: uppercase
+			font-family: "Lato-Regular",sans-serif
+			font-size: 16px
+			margin-top: 5px
+			
+			color: #888888
+			letter-spacing: 0px
+			text-align: center
+		.prev-price
+			margin-left: 97px
+			margin-right: 10px
+			display: inline-block
+			text-decoration: line-through
+		.sale-price
+			font-family: "Lato-Regular",sans-serif
+			font-size: 16px
+			color: #fc411d
+			display: inline-block
+			letter-spacing: 0px
+
+.good_item
+	display: none
+			
+.flex-container
+	display: -webkit-flex
+	display: flex
+	-webkit-flex-wrap: wrap
+	flex-wrap: wrap
+	max-width: 1140px
+
+.flex-item
+	margin-right: 30px
+	margin-bottom: 18px
+.no-mr
+	margin-right: 0	
+.y-mrl
+	margin-left: 30px
+.good-img
+	position: relative
+.new
+	position: absolute
+	top: 26px
+	left: 26px
+	width: 48px
+	height: 25px
+	border-radius: 12.5px
+	background-color: #177bd6
+	color: #fff
+	font-size: 11px
+	line-height: 25px
+	text-transform: uppercase
+	text-align: center
+
+.more
+	text-align: center
+	margin-top: 19px
+	a 
+		text-transform: uppercase
+		font-size: 12px
+
+// section-catalog-end
+
+// section-blue
+
+.blue-section
+	margin-top: 56px
+	width: 100%
+	background-image: url("../img/blue.jpg")
+	background-repeat: no-repeat
+	background-size: 100% 100%
+	height: 287px
+
+.subscribe	
+	text-align: center
+	padding-top: 65px
+	font-size: 12px
+	color: #333333
+	text-transform: uppercase
+	letter-spacing: 1.2px
+
+.stay-upd
+	text-align: center
+	margin-top: 10px
+	font-size: 38px
+	font-family: "PlayfairDisplay-Regular", sans-serif
+	color: #fff
+	letter-spacing: 0px
+
+.mail-wrap
+	width: 303px
+	height: 50px
+	border-radius: 25px
+	border: 2px solid #9acced
+	margin: 21px auto
+	input
+		margin-top: 11px
+		margin-left: 26px
+		width: 235px
+		height: 20px
+		background-color: transparent
+		border: none
+		font-size: 12px
+		text-transform: uppercase
+		outline: none
+		color: #fff
+		letter-spacing: 1.2px
+	input::-webkit-input-placeholder 
+		color: #fff
+	input:-moz-placeholder 
+		color: #fff
+	input::-moz-placeholder 
+		color: #fff
+	input:-ms-input-placeholder 
+		color: #fff
+	button
+		position: relative
+		top: 3px
+		right: -2px
+		background-color: transparent
+		border: none
+		outline: none
+		.fa 
+			color: #fff
+			font-size: 18px
+
+// section-blue-end
+
+// footer
+
+footer 
+	max-width: 1140px
+	margin: 0 auto
+	padding: 0
+	.logo-bottom
+		float: left
+		margin-left: 0px
+		margin-top: 3px
+		a 
+			font-family: "Didot-HTF-B06-Bold", sans-serif
+			font-size: 55px
+			line-height: 100px
+			text-transform: none
+			color: #333333
+			span
+				font-size: 30px
+
+footer 
+	.mnu
+		margin-left: 172px
+		li:nth-child(5)
+			margin: 0 25px 0 24px
+	.copy
+		font-size: 12px
+		margin-top: 42px
+		margin-left: 52px
+		letter-spacing: 1.1px
+		display: inline-block
+		float: left
+		span 
+			margin-left: 2px
+			letter-spacing: 1px

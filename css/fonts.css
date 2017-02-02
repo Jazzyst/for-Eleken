@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Lato-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lato-Bold/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Bold/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold/Lato-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Lato-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lato-Regular/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Regular/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular/Lato-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Playfair_Display/PlayfairDisplay-Regular.woff") format("woff"), url("../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Didot-HTF-B06-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Didot Bold/Didot-HTF-B06-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Didot Bold/Didot-HTF-B06-Bold.woff") format("woff"), url("../fonts/Didot Bold/Didot-HTF-B06-Bold.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */
